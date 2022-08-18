@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    </head>
+    <body>
+      <div class='col-lg-6' style='background-color:#c2185b; margin-top: 10%; margin-left: 30%; margin-right:30%; '>
+        {% comment %} <div class ="title" style='background-color:#c2185b;'> {% endcomment %}
+        <h1 style='margin-bottom: 0%; padding: 3%;'>LOGIN</h1>
+      </div>  
+      {% comment %} <form action="action_page.php" method="post"> {% endcomment %}
+      <form>
+        <div class="from-group">
+          {% comment %} <img src="img_avatar2.png" alt="Register" class="avatar"> {% endcomment %}
+        </div>
+      
+        <div class="form-group">
+          <div class='col-lg-6' style='background-color:#F0F3E7; margin-top: 0%; margin-left: 30%; margin-right:30%; padding-bottom:3%;'>
+            <div class="form-group">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" class="form-control" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div class="form-group">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" class="form-control" placeholder="Enter Password" name="psw" required>
+            </div>
+            
+
+            <div class='col-lg-6' style='background-color:#F0F3E7;'>
+              <button type="submit"> <a href="/taskes">login </a> </button>
+            </div>
+            <label>
+              <div class='col-lg-6' style='background-color:#ffff;'>
+              </div>
+              {% comment %} <input type="checkbox" checked="checked" name="remember"> Remember me {% endcomment %}
+            </label>
+            <div class="container" style="background-color:#fff">
+              {% comment %} <button type="button" class="cancelbtn">Cancel</button> {% endcomment %}
+              <div class ="container signin">
+                <span class="psw">Dont have a accountt? <a href="logup">Register?</a></span>
+              </div>
+            </div>
+          </div>
+          
+
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    </body>
+</html>
